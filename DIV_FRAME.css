@@ -1,0 +1,44 @@
+.leftcenter {
+    background: url('1.png') left center repeat-y; 
+}
+.rightcenter {
+    background: url('1.png') right center repeat-y;
+}
+.centertop {
+    background: url('2.png') center top repeat-x;
+}
+.centerbottom {
+    background: url('3.png') center bottom repeat-x;
+}
+.lefttop {
+    background: url('4.png') left top no-repeat;
+}
+.leftbottom {
+    background: url('5.png') left bottom no-repeat;
+}
+.righttop {
+    background: url('7.png') right top no-repeat;
+}
+.rightbottom {
+    background: url('8.png') right bottom no-repeat;
+}
+.text {
+    padding: 60px; 
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px; 
+    text-align: justify;
+    text-indent: 1cm;
+}
+.text::first-line {
+    color: blue;
+}
+img {
+    float: left;
+    width: 50%;
+}
+p::first-letter {
+    color: blue;
+}
+p:hover {
+    color: royalblue;
+}
